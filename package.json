@@ -1,6 +1,6 @@
 {
 	"name": "osm-to-graph",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Build a graph out of OSM XML",
 	"main": "./lib/index.js",
 	"bin": {
