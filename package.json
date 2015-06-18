@@ -1,21 +1,24 @@
 {
-	"name": "osm-to-graph",
-	"version": "0.1.1",
-	"description": "Build a graph out of OSM XML",
-	"main": "./lib/index.js",
-	"bin": {
-		"graph": "./bin/graph.js"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"contributors": [
-		"Mathieu Albrespy <mathieu.albrespy@gmail.com>",
-		"Julien Christin <jul.christin@gmail.com>"
-	],
-	"license": "MIT",
-	"dependencies": {
-		"cheerio": "^0.19.0",
-		"lodash": "^2.4.1"
-	}
+  "name": "osm-to-graph",
+  "version": "0.1.1",
+  "description": "Build a graph out of OSM XML",
+  "main": "./lib/index.js",
+  "bin": {
+    "graph": "./bin/graph.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    "Mathieu Albrespy <mathieu.albrespy@gmail.com>",
+    "Julien Christin <jul.christin@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^2.4.1",
+    "turf-bearing": "^1.0.1",
+    "turf-distance": "^1.0.1",
+    "turf-point": "^2.0.1"
+  }
 }

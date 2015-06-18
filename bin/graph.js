@@ -17,5 +17,6 @@ if (extname !== ".osm") {
 
 var basename = path.basename(argv[0], extname);
 var graph = osmToGraph.buildGraph(argv[0]);
+osmToGraph.addEdgeInfo(graph);
 osmToGraph.displayGraphInfo(graph);
 osmToGraph.saveGraph(graph, basename + ".json");
