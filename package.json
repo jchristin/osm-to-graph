@@ -20,5 +20,18 @@
     "turf-bearing": "^1.0.1",
     "turf-distance": "^1.0.1",
     "turf-point": "^2.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julbaxter/osm-to-graph.git"
+  },
+  "keywords": [
+    "osm",
+    "map",
+    "graph"
+  ],
+  "bugs": {
+    "url": "https://github.com/julbaxter/osm-to-graph/issues"
+  },
+  "homepage": "https://github.com/julbaxter/osm-to-graph#readme"
 }
